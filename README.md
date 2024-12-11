@@ -25,6 +25,8 @@
   `git add .`
 - **Commit changes:**  
   `git commit -m "Commit message"`
+- **Push changes:**
+  `git push`
 
 ---
 
