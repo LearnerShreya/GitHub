@@ -84,3 +84,18 @@
 - **Push a tag to remote repo:**  
   `git push origin <tag-name>`
 
+---
+
+### **Reinitializing a Git Repository**  
+If you've removed the `.git` folder or want to reinitialize a Git repository:  
+1. **Initialize a new Git repository:**  
+   `git init`  
+2. **Link to your GitHub repository:**  
+   `git remote add origin <your-repo-URL>`  
+3. **Stage all changes:**  
+   `git add .`  
+4. **Commit the changes:**  
+   `git commit -m "Reinitialize repository"`  
+5. **Push changes to the main branch:**  
+   `git push -u origin main`  (This will also set the upstream branch for future pushes)  
+
