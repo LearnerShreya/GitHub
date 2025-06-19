@@ -1,16 +1,16 @@
 
-# 👥 Collaborating with Others, Branch Safety & GitHub Workflows
+# **Collaborating with Others, Branch Safety & GitHub Workflows**
 
 ---
 
-## 1️⃣ Collaborating with Others (Forks, Pull Requests, Code Reviews)
+## 1. Collaborating with Others (Forks, Pull Requests, Code Reviews)
 
-### 🍴 Forking a Repo
+### Forking a Repo
 
 * Fork = Make **your own copy** of someone else’s GitHub repo.
 * Use when you want to **contribute but don’t have edit access**.
 
-### 📥 Cloning Your Fork
+### Cloning Your Fork
 
 ```bash
 git clone https://github.com/your-username/repo-name.git
@@ -18,7 +18,7 @@ git clone https://github.com/your-username/repo-name.git
 
 * Clones your forked repo to your local machine.
 
-### 🌿 Creating a New Branch
+### Creating a New Branch
 
 ```bash
 git checkout -b feature/your-feature-name
@@ -26,7 +26,7 @@ git checkout -b feature/your-feature-name
 
 * Always create a new branch to make changes.
 
-### ✅ Add, Commit & Push
+### Add, Commit & Push
 
 ```bash
 git add .
@@ -34,86 +34,86 @@ git commit -m "Your message"
 git push origin feature/your-feature-name
 ```
 
-### 🔃 Opening a Pull Request (PR)
+### Opening a Pull Request (PR)
 
 * Go to your fork on GitHub
 * Click **“Compare & Pull Request”**
 * Add a title and description → Submit PR
 
-🧠 PR = You’re asking the original owner to merge your changes.
+Note: PR = You’re asking the original owner to merge your changes.
 
 ---
 
-## 2️⃣ Working with Branches Safely
+## 2. Working with Branches Safely
 
-### 🔐 Stashing Changes
+### Stashing Changes
 
 ```bash
 git stash
 ```
 
-* Temporarily saves your uncommitted work
+* Temporarily saves your uncommitted work.
 
 ```bash
 git stash apply
 ```
 
-* Bring the stashed changes back
+* Bring the stashed changes back.
 
 ---
 
-### 🔁 Rebasing (Advanced)
+### Rebasing (Advanced)
 
 ```bash
 git rebase main
 ```
 
-* Rewrites your branch to start from the latest `main`
-* Keeps history **clean and linear**
-* Use before pushing
+* Rewrites your branch to start from the latest `main`.
+* Keeps history **clean and linear**.
+* Use before pushing.
 
 ---
 
-### 🍒 Cherry-Picking a Commit
+### Cherry-Picking a Commit
 
 ```bash
 git cherry-pick <commit-hash>
 ```
 
-* Apply a **single commit** from another branch to your current branch
+* Apply a **single commit** from another branch to your current branch.
 
 ---
 
-## 3️⃣ GitHub Workflows (GUI vs CLI, Issues, Actions)
+## 3. GitHub Workflows (GUI vs CLI, Issues, Actions)
 
-### 🖥️ Git CLI vs GitHub GUI
+### Git CLI vs GitHub GUI
 
 | Action      | CLI                      | GitHub Website (GUI)     |
 | ----------- | ------------------------ | ------------------------ |
 | Clone repo  | `git clone <url>`        | "Code" → Copy link       |
 | Make branch | `git checkout -b <name>` | "Branch → New" on web    |
 | Make PR     | Push first, then web PR  | "Compare & pull request" |
-| Issues      | ❌                        | Use "Issues" tab         |
+| Issues      | Not available            | Use "Issues" tab         |
 
 ---
 
-### 📝 Issues
+### Issues
 
-* Report bugs, request features, or assign tasks
-* Helps teams organize work
+* Report bugs, request features, or assign tasks.
+* Helps teams organize work.
 
 ---
 
-### 🧪 GitHub Actions
+### GitHub Actions
 
 * Automate testing, deployment, etc.
 * Use `.yml` files inside `.github/workflows/`
 
-🧠 Example: Auto-run tests when someone pushes code
+Example: Auto-run tests when someone pushes code.
 
 ---
 
-## ✅ Summary Table
+## Summary Table
 
 | Concept      | Meaning (in Simple Words)                   |
 | ------------ | ------------------------------------------- |
