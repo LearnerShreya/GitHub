@@ -1,5 +1,5 @@
 
-# 👥 Collaborating with Others, Branch Safety & GitHub Workflows – Simplified Notes
+# 👥 Collaborating with Others, Branch Safety & GitHub Workflows
 
 ---
 
